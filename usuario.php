@@ -27,8 +27,8 @@
 <td>Eric Freitas</td>
 <td>eric@unifev.edu.br</td>
 <td>Administrador</td>
-<td>Ativo</td>
-<td>Editar</td>
+<td><span class= "badge ativo">Ativo</span></td>
+<td><button class="btn-icon"><i class= "fa - solid fa pen"></i></button></td>
 </tr>
 
 <tr>
@@ -83,6 +83,21 @@ padding:15px;
 border-bottom:1px solid #eee;
 font-size:14px;
 color:#444;
+}
+
+tbody  tr:nth-child(even){
+     background-color: #f9f9f9;  
+}
+tbody tr:hover{
+    background-color: #f1f7ff;
+}
+
+.btn.icon{
+    background-color: none;
+    border: none;
+    color: #004a8d;
+    cursor: pointer;
+    font-size: 16px;
 }
 
 </style>
